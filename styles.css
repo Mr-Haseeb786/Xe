@@ -222,3 +222,56 @@ input {
     background-color: #778899;
   }
 }
+
+.lang-head {
+  color: white;
+}
+
+.footer-head {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.footer-single-link {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.lang-select {
+  width: 100px;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+  border: none;
+  padding-left: 0;
+  margin-top: 8px;
+}
+
+.lang-social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.links-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+footer {
+  padding-top: 2rem;
+}
+
+.company-info {
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 996px) {
+  .links-section {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
